@@ -52,7 +52,7 @@ int main()
 		}
 		else if(t=='a')
 		{
-			if((curX-1)>+0&&(map[curY][curX-1]=='*'||map[curY][curX-1]=='E'))curX--;//向左走
+			if((curX-1)>=0&&(map[curY][curX-1]=='*'||map[curY][curX-1]=='E'))curX--;//向左走
 		}
 		else if(t=='d')
 		{
